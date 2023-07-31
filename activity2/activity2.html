@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <main>
+
+        <section class="contact-container">
+            <h1>Contact Us</h1>
+            <form action="POST" class="contact-form">
+                <div class="name_container">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" class="name" placeholder="Ex: Kaizer Baynosa" required />
+                </div>
+                <div class="email_container">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" class="email" placeholder="Ex: Kaizerbaynosa321@gmail.com" required />
+                </div>
+                <div class="message_container">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="submit_container">
+                    <button type="submit" class="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="signup-container">
+            <h1>Sign Up</h1>
+            <form action="POST" class="contact-form">
+                <div class="name_container">
+                    <label for="username">username: </label>
+                    <input type="text" name="username" id="username" class="name" placeholder="Ex: kaizerbaynosa210" required />
+                </div>
+                <div class="email_container">
+                    <label for="password">password: </label>
+                    <input type="password" name="password" id="password" class="email" placeholder="*****************" required />
+                </div>
+                <div class="submit_container">
+                    <button type="submit" class="submit">Login</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="survey-container">
+            <h1>Survey</h1>
+            <form action="POST" class="survey_form">
+                <div class="name_age_container">
+                    <div class="name_container">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" class="name spand" placeholder="Ex: Kaizer Baynosa" required />
+                    </div>
+                    <div class="age_container">
+                        <label for="age">Age: </label>
+                        <input type="number" name="age" id="age" class="age spand" placeholder="0" required />
+                    </div>
+                </div>
+                <div class="choice_container">
+                    <div class="gender_container">
+                        <p>Gender </p>
+                        <div class="male_container">
+                            <input type="radio" id="male" name="fav_language" value="Male">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="female_container">
+                            <input type="radio" id="female" name="fav_language" value="Female">
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="language_container">
+                        <p>Which programming language do you know?</p>
+                        <div class="html_container">
+                            <input type="checkbox" id="html" name="fav_language" value="HTML">
+                            <label for="html">HTML</label>
+                        </div>
+                        <div class="css_container">
+                            <input type="checkbox" id="css" name="fav_language" value="CSS">
+                            <label for="css">CSS</label>
+                        </div>
+                        <div class="javascript_container">
+                            <input type="checkbox" id="javascript" name="fav_language" value="Javascript">
+                            <label for="javascript">Javascript</label>
+                        </div>
+                        <div class="python_container">
+                            <input type="checkbox" id="python" name="fav_language" value="Python">
+                            <label for="python">Python</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="message_container">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>

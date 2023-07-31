@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+:root {
+
+    --font-family: "Poppins", sans-serif;
+
+    --color-black: #1A1819;
+    --color-white: #FFFFFF;
+    --color-blue: #1A2DD7;
+    --color-primary: #252424;
+    --color-secondary: #1D1C1C;
+
+}
+
+body {
+
+    background-color: var(--color-black);
+    color: var(--color-white);
+
+}
+
+main {
+
+    margin: 70px auto;
+    padding: 20px;
+    width: 79%;
+    font-family: var(--font-family);
+
+}
+
+.first_section {
+
+    margin-bottom: 50px;
+    
+}
+
+h1 {
+
+    margin: 10px 0px 40px 0px;
+
+}
+
+.about {
+
+    text-indent: 10px;
+
+}
+.second_section {
+
+    display: flex;
+
+}
+
+.aboutme_container {
+
+    width: 50%;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.list {
+
+    margin: 0px 0px 45px 0px;
+
+}
+
+h3 {
+
+    margin: 10px 0px 10px 0px;
+
+}
+
+ol, ul {
+
+    margin: 0px 50px 0px 50px;
+
+}
+
+.image {
+
+    width: 100%;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: var(--color-white);
+
+}
+
+.third_section {
+
+    margin-top: 50px;
+
+}
+
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+td {
+
+    padding: 4px 4px 4px 4px;
+
+}
+
+.row_1 {
+    
+    background-color: var(--color-blue);
+
+}
+
+.row_2 {
+    
+    background-color: var(--color-primary);
+
+}
+
+.row_3 {
+    
+    background-color: var(--color-secondary);
+
+}
+
+.row_4 {
+    
+    background-color: var(--color-primary);
+    
+}

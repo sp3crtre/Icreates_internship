@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+:root {
+
+    --font-family: "Poppins", sans-serif;
+
+    --color-black: #1A1819;
+    --color-white: #FFFFFF;
+    --color-blue: #1A2DD7;
+    --color-primary: #252424;
+    --color-secondary: #1D1C1C;
+
+}
+
+body {
+
+    background-color: #1D1C1C;
+    color: white;
+
+}
+
+main {
+
+    font-family: var(--font-family);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+
+    text-align: center;
+    margin: 30px 0px 7px 0px;
+
+}
+
+.contact-container {
+
+    margin-top: 20px;
+    width: 38%;
+    border-radius: 13px;
+    background: #1A1819;
+
+}
+
+.contact-form {
+
+    padding: 30px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+
+    background-color: #1b191a;
+    color: white;
+    height: 43px;
+    border: none;
+    outline: none;
+    padding-left: 9px;
+
+}
+
+textarea {
+
+    background-color: #1b191a;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 14px;
+    resize: none;
+
+}
+
+textarea:hover {
+
+    border: 1px solid #aaaaaa8c;
+
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="number"]:hover {
+
+    border-bottom: 1px solid #aaaaaa8c;
+
+}
+
+label {
+
+    margin-bottom: 10px;
+
+}
+
+.name_container,
+.email_container,
+.message_container,
+.age_container {
+
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px 15px 0px;
+
+}
+
+.submit_container {
+
+    margin: 25px auto;
+    width: 200px;
+
+}
+
+.submit {
+
+    border: none;
+    width: 200px;
+    height: 34px;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #1A2DD7;
+
+}
+
+.submit:hover {
+
+    background-color: #1626b4;
+    
+}
+
+.signup-container {
+
+    margin-top: 20px;
+    width: 31%;
+    border-radius: 13px;
+    background: #1A1819;
+
+}
+
+.survey-container {
+
+    margin-top: 20px;
+    width: 52%;
+    border-radius: 13px;
+    background: #1A1819;
+
+}
+
+.age_container {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.survey_form {
+
+    padding: 30px;
+
+}
+
+.choice_container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+
+input[type="checkbox"] {
+
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    appearance: none; 
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+
+}
+  
+
+input[type="checkbox"]:checked {
+
+    background-color: #007bff; 
+    border-color: #007bff; 
+    
+}
+  
+input[type="radio"] {
+
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    border-radius: 50%; 
+    outline: none;
+    cursor: pointer;
+
+}
+
+input[type="radio"]:checked {
+
+    background-color: #007bff; 
+    border-color: #007bff; 
+
+}
+  
