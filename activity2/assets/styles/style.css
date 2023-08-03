@@ -89,7 +89,7 @@ textarea {
 
 textarea:hover {
 
-    border: 1px solid #8585858c;
+    border-bottom: 1px solid #8585858c;
 
 }
 
