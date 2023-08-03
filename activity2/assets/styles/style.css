@@ -65,6 +65,7 @@ input[type="email"],
 input[type="password"],
 input[type="number"] {
 
+    border-radius: 4px;
     background-color: #1b191a;
     color: white;
     height: 43px;
@@ -76,6 +77,7 @@ input[type="number"] {
 
 textarea {
 
+    border-radius: 4px;
     background-color: #1b191a;
     color: white;
     border: none;
@@ -87,7 +89,7 @@ textarea {
 
 textarea:hover {
 
-    border: 1px solid #aaaaaa8c;
+    border: 1px solid #8585858c;
 
 }
 
@@ -96,7 +98,7 @@ input[type="email"]:hover,
 input[type="password"]:hover,
 input[type="number"]:hover {
 
-    border-bottom: 1px solid #aaaaaa8c;
+    border-bottom: 1px solid #7e7e7e8c;
 
 }
 
@@ -133,6 +135,8 @@ label {
     color: white;
     border-radius: 5px;
     background-color: #1A2DD7;
+    font-size: 14px;
+    font-weight: 320;
 
 }
 
